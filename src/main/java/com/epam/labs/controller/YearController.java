@@ -33,7 +33,6 @@ public class YearController {
     public ResponseEntity getAll() {
         List<YearDto> dtos = (List<YearDto>) repository.findAll();
         return ResponseEntity.ok(dtos);
-        график плотности случайной величины я изобразил если оценка не смещенная то бла бла бла
     }
 
     @PostMapping("/checkYears")
